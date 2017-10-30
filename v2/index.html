@@ -4,13 +4,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="import" href="wc-dynamic-table.html">
   <title>Document</title>
 </head>
 
 <body>
+  <h1>Mi primer Custom Element</h1>
+
+  <section>
+
+    <wc-dynamic-table>
+
+      <div slot='reference' class="reference">
+        <span class="title"> Enunciado </span>
+        <ol>
+          <li>subtitulo 1</li>
+          <li>subtitulo 2</li>
+          <li>subtitulo 3</li>
+        </ol>
+      </div>
+
+      <div slot='description'>Description 1</div>
+
+      <div slot='reference' class="reference">
+        <span class="title"> Enunciado </span>
+        <ol>
+          <li>subtitulo 1</li>
+          <li>subtitulo 2</li>
+          <li>subtitulo 3</li>
+        </ol>
+      </div>
+
+      <div slot='description'>Description 2</div>
+
+      <div slot='reference' class="reference">
+        <span class="title"> Enunciado </span>
+        <ol>
+          <li>subtitulo 1</li>
+          <li>subtitulo 2</li>
+          <li>subtitulo 3</li>
+        </ol>
+      </div>
+
+      <div slot='description'>Description 3</div>
+
+    </wc-dynamic-table>
+
+  </section>
 
 </body>
 
-<script src="wc-documentation.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </html>
