@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <style>
+    #wc-dynamic-table .li-group {
+      background-color: black;
+    }
+  </style>
 </head>
 
 <body>
@@ -12,37 +17,42 @@
 
   <section>
 
-    <wc-dynamic-table>
-      <lala>lalal</lala>
+    <wc-dynamic-table id="wc-dynamic-table">
       <div slot='reference' class="reference">
-        <span class="title"> Enunciado </span>
-        <ol>
-          <li>subtitulo 1</li>
-          <li>subtitulo 2</li>
-          <li>subtitulo 3</li>
-        </ol>
+        <div class="li-group">
+          <span class="title"> Enunciado </span>
+          <ol>
+            <li>subtitulo 1</li>
+            <li>subtitulo 2</li>
+            <li>subtitulo 3</li>
+          </ol>
+        </div>
       </div>
 
       <div slot='description'>Description 1</div>
 
       <div slot='reference' class="reference">
-        <span class="title"> Enunciado </span>
-        <ol>
-          <li>subtitulo 1</li>
-          <li>subtitulo 2</li>
-          <li>subtitulo 3</li>
-        </ol>
+        <div class="li-group">
+          <span class="title"> Enunciado </span>
+          <ol>
+            <li>subtitulo 1</li>
+            <li>subtitulo 2</li>
+            <li>subtitulo 3</li>
+          </ol>
+        </div>
       </div>
 
       <div slot='description'>Description 2</div>
 
       <div slot='reference' class="reference">
-        <span class="title"> Enunciado </span>
-        <ol>
-          <li>subtitulo 1</li>
-          <li>subtitulo 2</li>
-          <li>subtitulo 3</li>
-        </ol>
+        <div class="li-group">
+          <span class="title"> Enunciado </span>
+          <ol>
+            <li>subtitulo 1</li>
+            <li>subtitulo 2</li>
+            <li>subtitulo 3</li>
+          </ol>
+        </div>
       </div>
 
       <div slot='description'>Description 3</div>

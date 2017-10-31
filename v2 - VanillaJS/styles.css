@@ -81,3 +81,7 @@
 .reference .title {
   display: none;
 }
+
+.li-group {
+  background-color: black;
+}
